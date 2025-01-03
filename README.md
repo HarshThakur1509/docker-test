@@ -1,6 +1,6 @@
 # commands
 
-### bash
+```bash
 
 docker run -d(detach mode) -p3001:3000(host's port: container's port) --name {Name}(assign custom name to image) {image} (pulls and starts the image)
 
@@ -18,4 +18,4 @@ docker-compose -f {file} up ()
 
 docker build -t {image} .(location of Dockerfile)
 
-###
+```
